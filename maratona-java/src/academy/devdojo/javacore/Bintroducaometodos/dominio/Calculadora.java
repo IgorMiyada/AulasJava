@@ -1,6 +1,9 @@
 package academy.devdojo.javacore.Bintroducaometodos.dominio;
 
 public class Calculadora {
+
+    public int a;
+    public int b;
     public double somaDoisNumeros(int num1, int num2){
         return num1+num2;
     }
@@ -33,5 +36,21 @@ public class Calculadora {
         System.out.println("Dentro do altera dois números");
         System.out.println("Num 1 : " + numero1);
         System.out.println("Num 2 : " + numero2);
+    }
+
+    public void somaArray(int[] numeros){
+       int soma=0;
+        for(int number:numeros){
+            soma+=number;
+        }
+        System.out.println(soma);
+    }
+
+    public void somaVarArgs(int... numeros){
+        int soma=0;
+        for(int number:numeros){
+            soma+=number;
+        }
+        System.out.println(soma);
     }
 }

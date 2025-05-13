@@ -7,7 +7,8 @@ public class CalculadoraTest2 {
         Calculadora calculadora = new Calculadora();
         int a = 2;
         int b = 3;
-        calculadora.alteraDoisNumeros(1,2);
+        calculadora.alteraDoisNumeros(a,b);
+        System.out.println("Fora do altera dois números");
         System.out.println("Num1 : " + a);
         System.out.println("Num1 : " + b);
     }

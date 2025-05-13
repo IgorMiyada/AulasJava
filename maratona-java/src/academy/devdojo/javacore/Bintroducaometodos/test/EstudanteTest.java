@@ -19,5 +19,8 @@ public class EstudanteTest {
 
         impressora.imprime(estudante1);
         impressora.imprime(estudante2);
+
+        impressora.imprime(estudante1);
+        impressora.imprime(estudante2);
     }
 }
