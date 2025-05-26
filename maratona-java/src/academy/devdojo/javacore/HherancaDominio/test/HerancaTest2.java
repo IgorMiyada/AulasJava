@@ -15,6 +15,7 @@ import academy.devdojo.javacore.HherancaDominio.dominio.Funcionario;
 
 public class HerancaTest2 {
     public static void main(String[] args) {
-        Funcionario funcionario = new Funcionario("Igor");
+        Funcionario funcionario = new Funcionario("Igor","54646545",15000);
+        funcionario.relatorioPagamento();
     }
 }

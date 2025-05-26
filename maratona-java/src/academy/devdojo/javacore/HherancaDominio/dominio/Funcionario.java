@@ -17,6 +17,15 @@ public class Funcionario extends Pessoa{
         System.out.println("Dentro de construtor de Funcionario");
     }
 
+    public Funcionario(String nome, String cpf) {
+        super(nome,cpf);
+    }
+
+    public Funcionario(String nome, String cpf, double salario) {
+        super(nome, cpf);
+        this.salario = salario;
+    }
+
     public void imprime(){
         super.imprime();
         System.out.println(this.salario);
