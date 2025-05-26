@@ -15,7 +15,7 @@ public enum TipoCliente {
     //Retornar a enumeração baseada na String
     public static TipoCliente tipoClientePorNomeRelatorio(String nomeRelatorio){
         for(TipoCliente tipoCliente : values()){
-
+            
             if(tipoCliente.getNomeRelatorio().equals(nomeRelatorio)){
                 return tipoCliente;
             }
