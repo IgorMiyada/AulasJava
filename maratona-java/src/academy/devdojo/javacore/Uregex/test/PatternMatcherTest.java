@@ -18,7 +18,7 @@ public class PatternMatcherTest {
         // * zero ou mais
         // + uma ou mais
         // {n,m} de n até m
-        // ()
+        // () separa cadeia de caracteres em grupos
         // o(v|c)o pode achar ovo ou oco
         // $
         // . 1.3 = 123,1@3,1/3
